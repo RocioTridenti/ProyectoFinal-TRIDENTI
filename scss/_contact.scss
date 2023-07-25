@@ -1,0 +1,41 @@
+.aboutme {
+    display:inline-block;
+    margin-top: 4rem;
+    height:100vh;
+    position: relative;
+}
+
+.aboutme img {
+    height: auto;
+    width: 30%;
+    border-radius: 50%;
+    transform: translateX(8rem);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.aboutme p {
+    @extend .content-sub2;
+    width: 50vh;
+    font-size: $aboutme-fontsize;
+    text-align: center;
+    transform: translateX(1rem);
+    font-weight: 700;
+}
+
+.form-floating {
+    display: flex;
+    width: 80%;
+    height:auto;
+    margin-left: 2rem;
+    transform: translateY(-20rem);
+}
+
+.btn {
+    display: flex;
+    width: 20%;
+    height:auto;
+    margin-left: 16rem;
+    margin-top: 1rem;
+    transform: translateY(-20rem);
+}

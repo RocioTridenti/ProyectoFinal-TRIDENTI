@@ -1,0 +1,52 @@
+
+.history-box {
+    display: flexbox;
+    width: 80%;
+    height: auto;
+    align-content:center;
+    flex-flow: column wrap;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .animate__animated {
+    font-size: $animate__animated-fontsize;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: $text-color;
+  }
+
+  .subtitle {
+    font-size: $subtitle-font-size;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: underline $text-color;
+    margin-left: 1.5    rem;
+  }
+
+ .content-sub1 {
+  font-size: $content-sub-font-size;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  margin-left: 1.2rem;
+  text-align: center;
+}
+
+.content-sub2 {
+    font-size: $content-sub-font-size;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    margin-left: 1.2rem;
+    text-align: center;
+  }
+
+  .history1 {
+    width: 60%;
+    height: 40%;
+    object-fit: cover;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+  }
+  .history1:hover {
+    filter: brightness(0.7);
+  }

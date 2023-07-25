@@ -1,0 +1,31 @@
+
+.row .col .card1 {
+    width: 60%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius:10%;
+}
+.row .col .card{
+    width: 60%;
+    height: auto;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 10%;
+}
+
+.tittle__inspo {
+    font-size: $titleinspo-fontsize;
+    text-align: center;
+    color:  $text-color;
+    transform: translateY(80px);
+    font-weight: 800;
+    padding-bottom: 1rem;
+}

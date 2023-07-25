@@ -1,0 +1,10 @@
+.navbar-brand {
+    height: 1.5rem;
+    color:$text-color;
+    font-size: $navbar-fontsize;
+    font-weight: 670;
+}
+
+.navbar-brand:hover{
+    color:$hover;
+}

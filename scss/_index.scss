@@ -1,0 +1,20 @@
+.content-box {
+    margin-top: 4rem;
+    text-align: center;
+    color: $text-color;
+  }
+  .content-box:hover {
+    transform: scale(0.9);
+  }
+/*carousel index*/
+.carousel-inner .carousel-item {
+margin-top: 0rem ;
+height: 70vh;
+position: relative;
+}
+
+.carousel-inner .carousel-item img {
+height: 100%;
+object-fit: cover;
+filter: grayscale(0.8);
+}
